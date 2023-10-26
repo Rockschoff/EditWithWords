@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: lavender;
+}
+
+.image {
+  height: 75vw;
+  width: 75vw;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.image > img {
+  height: 75vw;
+  width: 75vw;
+  object-fit: contain;
+}
+
+.upload {
+  height: 10vw;
+  width: 75vw;
+  border: 1px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions {
+  width: 75vw;
+  border: 1px solid black;
+  margin: auto;
+}
